@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Basic -->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Mobile Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Site Metas -->
+	<title>KOST TODAK</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Site Icons -->
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Site CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/custom.css">
+	<style>
+        /* Style untuk Pemesanan Form */
+        .pemesanan-form {
+            display: grid;
+            gap: 15px;
+        }
+
+        .pemesanan-form label {
+            font-weight: bold;
+        }
+
+        .pemesanan-form input,
+        .pemesanan-form textarea {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        .pemesanan-form button {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .pemesanan-form button:hover {
+            background-color: #ff0000;
+        }
+    </style>
+	<!-- Tambahkan library WhatsApp API -->
+    <script src="https://cdn.whatsapp.net/tools/js-sdk/whatsappsdk.js" async></script>
+</head>
+
+<body>
+	<!-- Start header -->
+	
+	<!-- End header -->
+
+	<!-- Start slides -->
+	<div id="slides" class="cover-slides">
+		<ul class="slides-container">
+			<li class="text-left">
+				<img src="images/carousel/kost1.jpg" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="m-b-20"><strong>Aman</strong></h1>
+							<p class="m-b-40">Keamanan kost adalah prioritas utama yang dijaga untuk  memberikan rasa aman dan ketenangan kepada para penghuninya.</p>
+							
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="text-left">
+				<img src="images/carousel/kost2.jpg" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="m-b-20"><strong>Bersih</strong></h1>
+							<p class="m-b-40">Kebersihan kost merupakan aspek penting dalam menciptakan lingkungan yang nyaman, 
+								sehat, dan aman bagi para penghuninya.</p>
+							
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="text-left">
+				<img src="images/carousel/kost3.jpg" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="m-b-20"><strong>Nyaman</strong></h1>
+							<p class="m-b-40">Kost yang nyaman menciptakan suasana tinggal yang
+								menyenangkan dan memenuhi kebutuhan para penghuninya dengan baik</p>
+							
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+		<div class="slides-navigation">
+			<a href="#" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+			<a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+		</div>
+	</div>
+	<!-- End slides -->
+
+	<!-- Start About -->
+	<section id="service" class="service">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="text-center m-5">
+						<h1>Aman		-		Bersih		-		Nyaman</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row pb-5">
+				<div class="col-sm-4">
+					<div class="text-center">
+						<div class="mb-3">
+							<img src="images/service/aman.jpg" alt="Recipes" />
+						</div>
+						<h3 class="font-weight-normal">Aman</h3>
+						<p class="text-justify" style="text-indent: 20px;">
+							Keamanan kost adalah prioritas utama yang dijaga untuk 
+							memberikan rasa aman dan ketenangan kepada para penghuninya, pengawasan CCTV 
+							di area-area kritis. Penghuni diberikan akses ke 
+							kunci pribadi atau kartu akses untuk masuk ke kamar masing-masing, 
+							dan kebijakan keamanan ketat diterapkan untuk menjaga keamanan bersama.
+							 Staf keamanan yang profesional mungkin juga hadir untuk memantau dan
+							  menjaga keamanan 24 jam sehari.</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="text-center">
+						<div class="mb-3">
+							<img src="images/service/bersih.jpg" alt="Food" />
+						</div>
+						<h3 class="font-weight-normal">Bersih</h3>
+						<p class="text-justify" style="text-indent: 20px;">Kebersihan kost adalah aspek integral dalam menciptakan lingkungan tempat tinggal yang sehat, nyaman, dan menyenangkan, 
+							Setiap area di kost ini dilengkapi dengan tempat sampah yang disediakan dengan baik, dan kebijakan 
+							pengelolaan sampah yang baik diterapkan untuk menjaga kebersihan. Produk pembersih yang efektif dan 
+							ramah lingkungan 
+							digunakan untuk memastikan bahwa semua permukaan dan peralatan selalu dalam keadaan bersih dan steril. </p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="text-center">
+						<div class="mb-3">
+							<img src="images/service/nyaman1.jpg" alt="Kokky">
+						</div>
+						<h3 class="font-weight-normal">Nyaman</h3>
+						<p class="text-justify" style="text-indent: 20px;">Kost yang nyaman menciptakan suasana tinggal yang menyenangkan dan memenuhi kebutuhan para penghuninya dengan baik, 
+							Kost ini menawarkan kenyamanan tinggal yang luar biasa 
+							dengan kamar-kamar yang bersih dan teratur, dilengkapi dengan perabotan yang nyaman dan fungsional. 
+							Setiap ruangan dirawat dengan baik untuk memberikan atmosfer yang menyenangkan.
+							 Kamar mandi bersama atau pribadi disediakan dengan fasilitas modern dan kebersihan yang terjaga.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End About -->
+
+	<!-- Start QT -->
+	<div class="qt-box qt-background">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 ml-auto mr-auto text-center">
+					<p class="lead ">
+						"Sistem keamanan modern, fasilitas yang selalu bersih, dan lingkungan yang nyaman menjadikan tempat
+						 ini pilihan sempurna bagi mereka yang mengutamakan ketenangan dan 
+						 kesejahteraan dalam tempat tinggal mereka. "
+					</p>
+					<span class="lead">Kost Todak</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End QT -->
+
+	<!-- Start Pemesanan -->
+<section id="pemesanan" class="pemesanan">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="text-center m-5">
+                    <h2>Pesan Sekarang!</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <form action="#" method="post" class="pemesanan-form">
+                    <label for="nama">Nama Lengkap:</label>
+                    <input type="text" id="nama" name="nama" required>
+
+                    <label for="email">Alamat Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="telepon">Nomor Telepon:</label>
+                    <input type="tel" id="telepon" name="telepon" required>
+
+                    <label for="tanggal-masuk">Tanggal Masuk:</label>
+                    <input type="date" id="tanggal-masuk" name="tanggal-masuk" required>
+
+                    <label for="pesan">Pesan Tambahan (Opsional) </label>
+                    <textarea id="pesan" name="pesan" rows="4"></textarea>
+
+                    <button type="submit">Pesan Sekarang</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Pemesanan -->
+
+		<!-- Start Contact info -->
+		<div class="contact-imfo-box">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 arrow-right">
+						<i class="fa fa-volume-control-phone"></i>
+						<div class="overflow-hidden">
+							<h4>Phone</h4>
+							<p class="lead">
+								+6282313959115
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4 arrow-right">
+						<i class="fa fa-envelope"></i>
+						<div class="overflow-hidden">
+							<h4>Email</h4>
+							<p class="lead">
+								210401225@student.umri.ac.id
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<i class="fa fa-map-marker"></i>
+						<div class="overflow-hidden">
+							<h4>Location</h4>
+							<p class="lead">
+								Jalan Todak
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Contact info -->
+
+		<!-- Start Footer -->
+		<footer class="footer-area bg-f">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6">
+						<h3>Tentang Kami</h3>
+						<p>Kost ini menyediakan pengalaman tinggal optimal dengan kombinasi keamanan tinggi, kebersihan terjaga, 
+							dan kenyamanan prima.</p>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<h3>Tertarik</h3>
+						<div class="subscribe_form">
+							<form class="subscribe_form">
+								<input name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address..." type="email">
+								<button type="submit" class="submit">Kirim</button>
+								<div class="clearfix"></div>
+							</form>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<h3>Informasi Kontak</h3>
+						<p class="lead">Kost Todak</p>
+						<p class="lead"><a href="#">+6282313959115</a></p>
+						<p><a href="#"> 210401225@student.umri.ac.id</a></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="copyright">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<p class="company-name">All Rights Reserved. &copy; 2024 <a href="#">Kost Todak</a> Design : Ahmad Ghozali
+								</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</footer>
+		<!-- End Footer -->
+
+		<a href="#" id="back-to-top" title="Back to top" style="display: none;"><i class="fa fa-paper-plane-o"
+				aria-hidden="true"></i></a>
+
+		<!-- ALL JS FILES -->
+		 <!-- Tambahkan fungsi JavaScript untuk mengirim pesan WhatsApp di bagian script -->
+		 <script>
+			function kirimPesanWhatsApp() {
+				// Ambil data dari formulir (sesuaikan dengan ID formulir Anda)
+				var nama = document.getElementById("nama").value;
+				var email = document.getElementById("email").value;
+				var telepon = document.getElementById("telepon").value;
+				var pesan = document.getElementById("pesan").value;
+	
+				// Ganti nomor telepon tujuan sesuai dengan nomor Anda
+				var nomorTujuan = "6282313959115";
+	
+				// Buat pesan yang akan dikirim
+				var pesanWhatsApp = "Halo, ada pesanan kost baru!\n\nNama: " + nama + "\nEmail: " + email + "\nTelepon: " + telepon + "\nPesan: " + pesan;
+	
+				// Panggil fungsi WhatsApp API untuk mengirim pesan
+				if (window.Whatsapp) {
+					window.Whatsapp.send("message", { phone: nomorTujuan, text: pesanWhatsApp });
+				} else {
+					alert("WhatsApp API belum dimuat. Periksa kembali implementasinya.");
+				}
+			}
+		</script>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<!-- ALL PLUGINS -->
+		<script src="js/jquery.superslides.min.js"></script>
+		<script src="js/images-loded.min.js"></script>
+		<script src="js/isotope.min.js"></script>
+		<script src="js/baguetteBox.min.js"></script>
+		<script src="js/form-validator.min.js"></script>
+		<script src="js/contact-form-script.js"></script>
+		<script src="js/custom.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/gallery.js"></script>
+</body>
+
+</html>
